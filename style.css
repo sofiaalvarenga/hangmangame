@@ -1,0 +1,48 @@
+h1{
+    color: whitesmoke;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+body{
+    margin:50px;
+    background-color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+main{
+    width: 80%;
+    padding: 40px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.178);
+    text-align: center;
+    gap: 30px; 
+}
+#adivinarPalabra {
+    height: 4em;
+    gap: 8px;
+    
+}
+#adivinarPalabra span{
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 2px solid rgb(253, 249, 249);
+    width: 40px;
+    text-align: center;
+    margin-right: 7px;
+    display: inline-block ;
+}
+#letras{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 30px;
+}
+#letras button{
+    width: 30px;
+}
+#resultado{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
